@@ -1,0 +1,336 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\froman\fcharset0 Times-Bold;
+\f3\froman\fcharset0 Times-Roman;\f4\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16800\viewh15320\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8141\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf0 \ul \ulc0 JSON Diff Libraries:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \ulnone \
+
+\f0\b\fs48 1.\ul  deep-diff: 
+\fs36 \
+
+\f1\b0 \ulnone \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b \cf0 \expnd0\expndtw0\kerning0
+Description
+\f3\b0 : A lightweight library for deep comparison of JavaScript objects, including JSON.\
+
+\f2\b Features
+\f3\b0 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Supports nested structures (arrays, objects).\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Provides detailed diff results including additions, deletions, and changes.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+
+\f2\b Installation: 
+\f3\b0 npm install deep-diff\
+\
+
+\f2\b Usage: 
+\f3\b0 \
+\pard\tx720\pardeftab720\qj\partightenfactor0
+\cf0 const deepDiff = require('deep-diff').diff;\
+const json1 = \{ name: "John", age: 30, address: \{ city: "New York" \} \};\
+const json2 = \{ name: "Jane", age: 30, address: \{ city: "Los Angeles" \} \};\
+let differences = deepDiff(json1, json2);\
+console.log(differences);\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f2\b \cf0 \
+Output:\
+\
+[\
+  \{\
+   \cb3  
+\f3\b0 "kind": "E",\
+    "path": ["name"],\
+    "lhs": "John",\
+    "rhs": "Jane"
+\f2\b \cb1 \
+  \},\
+  \{\
+    
+\f3\b0 "kind": "E",\
+    "path": ["address", "city"],\
+    "lhs": "New York",\
+    "rhs": "Los Angeles"
+\f2\b \
+  \}\
+]\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Explanation:
+\f3\b0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f4\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\fs36 \expnd0\expndtw0\kerning0
+kind: "E"
+\f3  indicates an edit.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f4 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+path
+\f3  is the location of the difference.\
+\ls2\ilvl0
+\f4 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+lhs
+\f3  (left-hand side) is the value in 
+\f4 json1
+\f3 .\
+\ls2\ilvl0
+\f4 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+rhs
+\f3  (right-hand side) is the value in 
+\f4 json2
+\f3 .\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f2\b\fs48 \cf0 2.  \ul json-diff:\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs36 \cf0 \ulnone Description
+\f3\b0 : A simple library for comparing JSON objects.\
+
+\f2\b Features
+\f3\b0 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Provides straightforward diff output.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Easy to use for basic JSON comparisons.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b \cf0 Installation
+\f3\b0 : npm install json-diff\
+
+\f2\b Usage:\
+\pard\pardeftab720\sa240\qj\partightenfactor0
+
+\f3\b0 \cf0 const jsonDiff = require('json-diff');\
+const json1 = \{ name: "John", age: 30, address: \{ city: "New York" \} \};\
+const json2 = \{ name: "Jane", age: 30, address: \{ city: "Los Angeles" \} \};\
+let differences = jsonDiff.diffString(json1, json2);\
+console.log(differences);\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b \cf0 Output:\
+ \{\
+   
+\f3\b0 name: "John" => "Jane"\
+   address: \{\
+     city: "New York" => "Los Angeles"
+\f2\b \
+   \}\
+ \}\
+Explanation:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f4\b0 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+=>
+\f3  shows the changes from 
+\f4 json1
+\f3  to 
+\f4 json2
+\f3 .\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f2\b \cf0 \
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs48 \cf0 3. \ul fast-json-patch:\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs36 \cf0 \ulnone Description
+\f3\b0 : A library for applying JSON Patch (RFC 6902) to JSON objects, useful for generating and applying patches.\
+
+\f2\b Features
+\f3\b0 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Can generate JSON patches from differences.\
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Can apply JSON patches to objects.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b \cf0 Installation
+\f3\b0 :  npm install fast-json-patch\
+
+\f2\b Usage:\
+
+\f3\b0 const jsonpatch = require('fast-json-patch');\
+const json1 = \{ name: "John", age: 30, address: \{ city: "New York" \} \};\
+const json2 = \{ name: "Jane", age: 30, address: \{ city: "Los Angeles" \} \};\
+const patch = jsonpatch.compare(json1, json2);\
+console.log(patch);\
+\
+
+\f2\b Output:\
+[\
+  
+\f3\b0 \{ "op": "replace", "path": "/name", "value": "Jane" \},\
+  \{ "op": "replace", "path": "/address/city", "value": "Los Angeles" \}
+\f2\b \
+]\
+\
+Explanation:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f4\b0\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\fs36 \expnd0\expndtw0\kerning0
+op: "replace"
+\f3  indicates a replacement operation.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f4 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+path
+\f3  is the location of the change.\
+\ls6\ilvl0
+\f4 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+value
+\f3  is the new value in 
+\f4 json2
+\f3 .\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs24 \cf0 \
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f2\b\fs48 \cf0 4. \ul diff:
+\fs36 \ulnone \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Description
+\f3\b0 : A general-purpose text diffing library that can be used for JSON as well.\
+
+\f2\b Features
+\f3\b0 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Provides character-by-character, word-by-word, or line-by-line diff.\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Can be adapted to JSON objects.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b \cf0 Installation
+\f3\b0 : npm install diff\
+
+\f2\b Usage:
+\f3\b0 \
+const Diff = require('diff');\
+const json1 = JSON.stringify(\{ name: "John", age: 30, address: \{ city: "New York" \} \}, null, 2);\
+const json2 = JSON.stringify(\{ name: "Jane", age: 30, address: \{ city: "Los Angeles" \} \}, null, 2);\
+const differences = Diff.diffJson(json1, json2);\
+differences.forEach(part => \{\
+  const color = part.added ? 'green' :\
+    part.removed ? 'red' : 'grey';\
+  process.stderr.write(part.value[color]);\
+\});\
+
+\f2\b \
+Output:\
+ \{\
+   
+\f3\b0 "name": "John",\
+
+\f2\b + 
+\f3\b0  "name": "Jane",\
+   "age": 30,\
+   "address": \{\
+     "city": "New York"\
+
+\f2\b +  
+\f3\b0   "city": "Los Angeles"
+\f2\b \
+   \}\
+ \}\
+\
+Explanation:
+\f3\b0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0
+\f4\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	
+\fs36 \uc0\u8226 	}\expnd0\expndtw0\kerning0
++
+\f3  indicates additions.\
+\ls8\ilvl0
+\f4 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+-
+\f3  indicates deletions.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+This example shows the JSON diff as if it were a text diff, highlighting changes inline.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26 \cf0 \
+
+\f3\b0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 \
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b\fs36 \cf0 \
+
+\f3\b0 \
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 \
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f2\b\fs36 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b0\fs24 \cf0 \
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs36 \cf0 \
+
+\f2\b \
+\
+
+\f3\b0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs36 \cf0 \kerning1\expnd0\expndtw0 \
+}
